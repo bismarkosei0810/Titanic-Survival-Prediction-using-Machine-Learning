@@ -1,52 +1,73 @@
-# Titanic-Survival-Prediction-using-Machine-Learning
-Concise, well-commented notebook that predicts Titanic survival with Logistic Regression (79 % accuracy). 4 features, full EDA to evaluation in one file. This project builds a machine learning model to predict whether a passenger survived the Titanic disaster using historical passenger data. 
-he goal is to demonstrate a clear, end-to-end machine learning workflow, from data exploration to model evaluation.
+# 🚢 Titanic Survival Prediction using Machine Learning
 
-# Dataset
-The dataset comes from the well-known Kaggle Titanic dataset and contains information about passengers such as age, gender, ticket class, and fare.
+This project builds a machine learning model to predict survival outcomes of passengers on the Titanic based on features such as age, gender, passenger class, fare, and other demographic information. It is a classic binary classification problem used to demonstrate data preprocessing, exploratory data analysis, and supervised machine learning techniques.
 
-Files used:
+---
 
-train.csv – training data with survival labels
+## 📌 Project Overview
 
-test.csv – test data without survival labels
+The objective is to analyze Titanic passenger data and build a predictive model that determines whether a passenger survived or not.
 
-## Methodology
-The project follows these steps:
-### 1. Data Exploration
-Survival distribution analysis
+The project covers:
+- Data cleaning and handling missing values  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering and encoding categorical variables  
+- Model building and training  
+- Model evaluation  
+- Making predictions on unseen data  
 
-Visualizations by gender,
+---
 
-class,
+## 📊 Dataset
 
-age, 
+The dataset contains information about Titanic passengers, including:
 
-and fare
-### 2. Data Preprocessing
-Handling missing values
+- Passenger class (Pclass)  
+- Name, Sex, Age  
+- Number of siblings/spouses aboard (SibSp)  
+- Number of parents/children aboard (Parch)  
+- Ticket fare  
+- Cabin and Embarked location  
+- Survival status (target variable: 0 = did not survive, 1 = survived)  
 
-Encoding categorical variables
+---
 
-### 3. Feature scaling
-Model Training
-Random Forest Classifier
-Train–test split for fair evaluation
-### 4. Model Evaluation
-Accuracy score
-Classification report
-Confusion matrix
-Feature importance analysis
-Model Performance
-The Random Forest model achieves strong predictive performance using only four features.
-Sex and Passenger Class are the most important predictors of survival.
-The results reflect historical realities such as the “women and children first” evacuation policy.
-### Technologies Used
-Python
-Pandas & NumPy
-Matplotlib & Seaborn
-Scikit-learn
-Jupyter Notebook
+## 🧠 Machine Learning Approach
 
-### Author
-#### Bismark
+The workflow followed in this project:
+
+1. Load and inspect the dataset  
+2. Handle missing values  
+3. Perform exploratory data analysis (EDA)  
+4. Encode categorical variables  
+5. Feature selection and engineering  
+6. Train machine learning models  
+7. Evaluate model performance  
+8. Generate predictions  
+
+---
+
+## ⚙️ Technologies Used
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+
+---
+
+## 📈 Models Used
+
+The following classification models were explored:
+
+- Logistic Regression  
+- Random Forest Classifier  
+
+
+
+
+
+
